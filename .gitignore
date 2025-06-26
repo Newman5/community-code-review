@@ -4,3 +4,13 @@ artifacts/
 build/
 # Aiken's default documentation export
 docs/
+# Editor and OS files
+.vscode/
+*.swp
+*.swo
+.DS_Store
+# Logs
+*.log
+
+# Environment files
+.env
