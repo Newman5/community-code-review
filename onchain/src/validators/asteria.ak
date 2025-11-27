@@ -51,6 +51,7 @@ validator asteria(
             outputs,
             fn(output) { output.address == asteria_input.output.address },
           )
+
         expect Output {
           address: _,
           value: asteria_value,
